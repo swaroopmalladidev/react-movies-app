@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-//import * as serviceWorker from './serviceWorker';
-import registerServiceWorker from './registerServiceWorker';
+import * as serviceWorker from './serviceWorker';
+//import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(<div></div>, document.getElementById('root'));
 
@@ -10,5 +10,5 @@ ReactDOM.render(<div></div>, document.getElementById('root'));
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 
-registerServiceWorker();
-//serviceWorker.unregister();
+//registerServiceWorker();
+serviceWorker.unregister();
