@@ -4,6 +4,7 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 //import registerServiceWorker from './registerServiceWorker';
 import Home from './screens/home/Home';
+import 'typeface-roboto';
 
 ReactDOM.render(<Home/>, document.getElementById('root'));
 
