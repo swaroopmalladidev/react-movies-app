@@ -216,7 +216,7 @@ let moviesData = [
             }
         ]
     },
-    {
+    {   
         "id": "M7",
         "title": "The Revenant",
         "storyline": "A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team.",
